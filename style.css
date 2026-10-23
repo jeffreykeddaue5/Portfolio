@@ -97,6 +97,20 @@ h1.title {
 .box-body p { margin: 2px 0; }
 
 /* Profile */
+.avatar {
+  display: block;
+  width: 128px;
+  height: 128px;
+  margin: 2px auto 10px;
+  object-fit: cover;
+  object-position: 50% 35%;
+  padding: 3px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  outline: 1px solid var(--pink);
+  outline-offset: 2px;
+  filter: saturate(0.85) contrast(1.05);
+}
 .ascii {
   margin: 0 0 6px;
   color: var(--pink);
